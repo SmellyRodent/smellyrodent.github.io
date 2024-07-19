@@ -1,0 +1,123 @@
+.section1 img {
+  width: 80vw;
+  height: 50vh;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin: auto;
+  background-position: right 20px bottom 40px;
+  display: block;
+  border-radius: 0px 0px 35px 35px;
+  box-shadow: 2px 10px 35px brown;
+}
+
+.section1{
+  background-color: tan;
+  padding-bottom: 40px;
+/*   border-bottom: 4px brown dashed; */
+  font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+}
+.section1 h1{
+ display: block;
+margin: auto;
+ text-align: center;
+  font-size: 100px;
+  font-weight: 1000;
+  color: green;
+  text-shadow: 5px 0 #006400, -2px 0 #006400, 0 2px #006400, 0 -2px #006400,
+               1px 1px #006400, -1px -1px #006400, 1px -1px #006400, -1px 1px #006400;
+}
+.section2{
+  box-shadow: 5px 5px 20px black;
+  font-size: 25px;
+  font-family: comic-sans, sans-serif;
+  padding: 1vh 15vw;
+  background-color: orange;
+  border: 2px solid black;
+  width: 30%;
+  margin: auto;
+  margin-top: 40px;
+  border: 6px brown dotted;
+  border-radius: 15px;
+  padding: 40px;
+  transition: all .5s cubic-bezier(.65,0,.47,1.01);
+}
+.section2:hover{
+  width: 40%;
+  background-color: rgb(200,100,0);
+}
+
+.section2 h1{
+  color: white;
+  font-weight: 800;
+  text-shadow: 6px 0 #000, -2px 0 #000, 0 2px #000, 0 -2px #000,
+               1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;
+}
+.section2 p{
+  font-weight: 200;
+  font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+}
+.section2 h2{
+  color: black;
+  margin-top: 40px;
+  font-weight: 600;
+  font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+}
+.section2 ul {
+  
+}
+.section2 ul ui{
+  display: block;
+  margin: 10px;
+  font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+}
+.imgcontainer{
+  float: right;
+  width: 0px;
+  height: 0px;
+  transition: all .5s cubic-bezier(.65,0,.47,1.01);
+  display: inline;
+  margin-right: auto;
+  margin-top: 20%;
+}
+.imgcontainer_JUMPSCARE{
+  float: right;
+  width: 0px;
+  height: 0px;
+  transition: all .5s cubic-bezier(.65,0,.47,1.01);
+  display: inline;
+  margin-right: auto;
+  margin-top: 20%;
+}
+.imgcontainer .profile{
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.imgcontainer_JUMPSCARE .profile{
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.section2:hover .imgcontainer{
+  width: 35%;
+  height: 35%;
+   margin-top: 0%;
+}
+.section2:hover .imgcontainer_JUMPSCARE{
+  width: 105%;
+  height: 35%;
+   margin-top: 0%;
+}
+.section2 .profile{
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+html{
+    background-color: beige;
+  padding-bottom: 10vh;
+}
